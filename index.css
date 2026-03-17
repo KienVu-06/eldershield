@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: #0a2540;
+  color: white;
+}
+
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px;
+  background: linear-gradient(to right, #0a2540, #1f4e79);
+  color: white;
+}
+
+.hero button {
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.features {
+  padding: 50px;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: #eee;
+  border-radius: 10px;
+}
+
+.tips {
+  padding: 50px;
+  background: #f9f9f9;
+}
+
+.tip {
+  margin-bottom: 20px;
+}
+
+.contact {
+  padding: 50px;
+  text-align: center;
+}
+
+.contact input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0a2540;
+  color: white;
+}
